@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria;
+}
+#bag-img{
+    width: 200px;
+    height: 500px;
+    margin: 0px auto;
+    background: url("./img/bag.png") center no-repeat;
+    background-size: 90%;
+}
+#bag-img.bagBurst{
+    background: url("./img/bag-burst.png") center no-repeat;
+    background-size: 90%;
+}
+#push-status{
+    margin: 0px auto 15px auto;
+    width: 300px;
+    border: 3px solid #000;
+}
+#status-bar{
+    height: 22px;
+    background: #dc143c;
+}
+#punch-control{
+    margin: 0px auto;
+    text-align: center;
+    width: 350px;
+}
+#punch-control button{
+    width: 150px;
+    margin: 5px 10px;
+    font-size: 17px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: #f7f7f7;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+}
+#punch-control #punch{
+    background: #009b00;
+}
+#punch-control #reset{
+    background: #00319b;
+}
+#punch-control #punch:hover{
+    background: #003f00;
+}
+#punch-control #reset:hover{
+    background: #16064f;
+}
